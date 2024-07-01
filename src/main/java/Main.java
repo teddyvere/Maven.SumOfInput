@@ -14,22 +14,21 @@ public class Main {
 
         System.out.println(sum);
 
-
     }
 
     public Main() {
     }
 
     // do this one and the lab is complete. really.
-    // return the sum of 0 to n... if n == 3, the result should be 6
+    // returns the sum of 0 to n... if n == 3, the result should be 6
     static int sumOfNumbers(int n) {
-        int sum=0;
+        int total=0;
 
         for (int i = 1; i <= n; i ++) {
-        sum += i;
+        total += i;
         }
 
-        return sum;
+        return total;
     }
 
 
